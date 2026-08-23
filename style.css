@@ -65,3 +65,32 @@ html, body{
   color: #fff;
   text-decoration: underline;
 }
+
+.form-container{
+    background-color: #F9FAFB;
+}
+.form-description{
+    padding: 5rem 3rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: #060606;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 3rem;
+    background-color: #FFFFFF;
+}
+.form-inputs{
+    display: flex;
+    gap: 5rem;
+}
+.label-input{
+    display: flex;
+    flex-direction: column;
+}
