@@ -85,6 +85,13 @@ form{
     gap: 1rem;
     padding: 1rem 3rem;
     background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+form p{
+    color: #1F2937;
+    font-size: 1.5rem;
+    font-weight: 600
 }
 .form-inputs{
     display: flex;
@@ -93,4 +100,22 @@ form{
 .label-input{
     display: flex;
     flex-direction: column;
+}
+input{
+    margin-bottom: 1rem;
+    border: 1.5px solid #E5E7EB;
+    border-radius: 0.2rem;
+    outline: none;
+}
+input:focus{
+    border-color: blue;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+input:user-invalid{
+    border-color: red;
+}
+label{
+    color: #2E3845;
+    font-size: 0.7rem;
+    font-weight: 600;
 }
