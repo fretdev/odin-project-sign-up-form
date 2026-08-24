@@ -70,7 +70,7 @@ html, body{
     background-color: #F9FAFB;
 }
 .form-description{
-    padding: 5rem 3rem;
+    padding: 3rem 3rem;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -79,7 +79,7 @@ html, body{
     color: #060606;
 }
 
-form{
+.form-entries{
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -102,7 +102,7 @@ form p{
     flex-direction: column;
 }
 input{
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
     border: 1.5px solid #E5E7EB;
     border-radius: 0.2rem;
     outline: none;
@@ -118,4 +118,20 @@ label{
     color: #2E3845;
     font-size: 0.7rem;
     font-weight: 600;
+}
+button{
+    background: #596D48;
+    color: #fff;
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 1.8rem;
+    margin-left: 3rem;
+    padding: 0.4rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-txt{
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
